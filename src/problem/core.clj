@@ -7,7 +7,3 @@
 (defrecord MyRec []
   MyProto
   (foo [my-rec] nil))
-
-(t/ann my-rec [-> MyRec])
-(defn my-rec []
-  (->MyRec))
